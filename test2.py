@@ -43,7 +43,7 @@ while True:
         # Blend with transparency
         frame = cv2.addWeighted(overlay, 0.3, frame, 0.7, 0)
 
-        # Optional: Draw ear points
+        #Drawing ear points
         cv2.circle(frame, (lx, ly), 3, (0, 140, 255), -1)
         cv2.circle(frame, (rx, ry), 3, (0, 140, 255), -1)
 
