@@ -12,8 +12,8 @@ import threading
 
 # ====== Spotify Setup ======
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-    client_id="4f0c60d1b7254d27b6c1b2129234b962",
-    client_secret="d7109c33f6c446bfba529c04e68eb908",
+    client_id="",
+    client_secret="",
     redirect_uri="http://127.0.0.1:8888/callback",
     scope="user-read-playback-state user-read-currently-playing"
 ))
